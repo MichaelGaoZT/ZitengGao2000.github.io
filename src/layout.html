@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{site_url}}assets/images/ziteng1.JPG">
+  <meta property="og:image:alt" content="Ziteng Gao with humanoid robots">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="{{canonical}}">
+  {{language_alternates}}
+  <link rel="icon" href="{{root}}assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{root}}assets/css/main.css">
+  <script src="{{root}}assets/js/main.js" defer></script>
+  <title>{{title}}</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">{{skip_label}}</a>
+  <header class="site-header">
+    <nav class="container navigation" aria-label="{{nav_label}}">
+      <a class="wordmark" href="{{root}}"><strong>Ziteng</strong> Gao</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" hidden>{{menu_label}} <span aria-hidden="true">☰</span></button>
+      <div class="nav-links" id="nav-links">{{navigation}}</div>
+    </nav>
+  </header>
+  <main class="container" id="main" tabindex="-1">
+{{content}}
+  </main>
+  <footer class="site-footer container">
+    <span>© 2026 Ziteng Gao · 高紫腾</span>
+    <span>Design inspired by <a href="https://www.zhengyiluo.com/">Zhengyi Luo</a> &amp; <a href="https://github.com/alshedivat/al-folio">al-folio</a> · <a href="https://github.com/MichaelGaoZT/ZitengGao2000.github.io">Source</a></span>
+  </footer>
+</body>
+</html>
